@@ -1,5 +1,7 @@
 import Image from 'next/image'
 
+import CTALink from '../common/CTALink'
+
 import firstSectionImage from '../../../public/images/first-section-image.png'
 
 export default function FirstSection() {
@@ -26,13 +28,7 @@ export default function FirstSection() {
         </figure>
       </div>
       <div className="absolute inset-0 flex flex-col justify-end items-center mb-5 md:mb-10">
-        <a
-          className="px-4 py-2 mb-4 rounded-md bg-yellow-600 text-white text-bold text-md uppercase md:text-xl md:w-[240px] md:text-center md:mb-10"
-          href="https://shopee.co.id/EMMA-DRESS-i.197242392.9872229801"
-          target="_blank"
-          rel="noopener noreferer">
-          Shop Now
-        </a>
+        <CTALink>Shop Now</CTALink>
         <figure className="relative h-[32px] w-[115px]">
           <Image
             alt="first-section-image"

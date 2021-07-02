@@ -1,5 +1,7 @@
 import Image from 'next/image'
 
+import CTALink from '../common/CTALink'
+
 import thirdSectionImageA from '../../../public/images/third-section-image-a.png'
 import thirdSectionImageB from '../../../public/images/third-section-image-b.png'
 import thirdSectionImageC from '../../../public/images/third-section-image-c.png'
@@ -62,13 +64,7 @@ export default function ThirdSection() {
         </figure>
 
         <div className="absolute bottom-4 inset-x-0 flex justify-center">
-          <a
-            className="px-4 py-2 rounded-md bg-yellow-600 text-white text-bold text-md uppercase"
-            href="https://shopee.co.id/EMMA-DRESS-i.197242392.9872229801"
-            target="_blank"
-            rel="noopener noreferer">
-            Shop Now
-          </a>
+        <CTALink>Shop Now</CTALink>
         </div>
       </div>
     </section>

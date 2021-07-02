@@ -1,5 +1,7 @@
 import Image from 'next/image'
 
+import CTALink from '../common/CTALink'
+
 import fourthSectionImage from '../../../public/images/fourth-section-image.png'
 
 export default function FourthSection() {
@@ -15,15 +17,17 @@ export default function FourthSection() {
       />
 
       <div className="absolute inset-0 flex flex-col justify-center items-center gap-4">
-        <p className="text-6xl text-white">EMMA</p>
+        <figure className="relative h-[52px] w-[267px] md:h-[120px] md:w-[616px]">
+          <Image
+            alt="first-section-image"
+            src="/emma-logo-black.svg"
+            layout="fill"
+            objectFit="cover"
+            objectPosition="center"
+          />
+        </figure>
 
-        <a
-          className="px-4 py-2 rounded-md bg-yellow-600 text-white text-bold text-md uppercase"
-          href="https://shopee.co.id/EMMA-DRESS-i.197242392.9872229801"
-          target="_blank"
-          rel="noopener noreferer">
-          Shop Now
-        </a>
+        <CTALink>Shop Now</CTALink>
       </div>
     </section>
   )

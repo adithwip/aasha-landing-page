@@ -1,5 +1,7 @@
 import Image from 'next/image'
 
+import CTALink from '../common/CTALink'
+
 import secondSectionImage from '../../../public/images/second-section-image.png'
 
 export default function SecondSection() {
@@ -40,13 +42,7 @@ export default function SecondSection() {
             <li>✅ Wudhu friendly</li>
           </ul>
 
-          <a
-            className="px-4 py-2 rounded-md bg-yellow-600 text-white text-bold text-md uppercase"
-            href="https://shopee.co.id/EMMA-DRESS-i.197242392.9872229801"
-            target="_blank"
-            rel="noopener noreferer">
-            Shop Now
-          </a>
+          <CTALink>Shop Now</CTALink>
         </div>
       </div>
 
