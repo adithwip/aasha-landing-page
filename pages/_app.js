@@ -1,7 +1,11 @@
+import FacebookPixel from '../src/components/common/FacebookPixel'
+
 import 'tailwindcss/tailwind.css'
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+export default function MyApp({ Component, pageProps }) {
+  return (
+    <FacebookPixel>
+      <Component {...pageProps} />
+    </FacebookPixel>
+  )
 }
-
-export default MyApp
