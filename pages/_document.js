@@ -6,6 +6,8 @@ export default class MyDocument extends Document {
     return (
       <Html>
         <Head>
+          <meta name="facebook-domain-verification" content="7mpj046e0e9a556dz8m9n48nnktkvo" />
+
           {/* Global Site Code Pixel - Facebook Pixel */}
           <script
             dangerouslySetInnerHTML={{
