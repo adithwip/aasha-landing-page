@@ -29,7 +29,7 @@ export default function FirstSection() {
       </div>
       <div className="absolute inset-0 flex flex-col justify-end items-center mb-5 md:mb-10">
         <CTALink>Shop Now</CTALink>
-        <figure className="relative h-[32px] w-[115px]">
+        <figure className="relative h-[32px] w-[115px] mt-5">
           <Image
             alt="first-section-image"
             src="/aasha-logo-white.png"
